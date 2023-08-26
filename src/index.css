@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,500;10..48,700&family=Montserrat:wght@300;500;700;900&family=Poppins:wght@200;300;500;700;900&family=Roboto:wght@100;300;500;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0 10dvw;
+  background: linear-gradient(217deg, rgba(241, 90, 90, 0.8), rgba(70, 51, 51, 0) 70.71%),
+            linear-gradient(127deg, rgba(241, 202, 72, 0.8), rgba(162, 243, 162, 0) 70.71%),
+            linear-gradient(336deg, rgba(18, 18, 240, 0.8), rgba(0,0,255,0) 70.71%);
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
